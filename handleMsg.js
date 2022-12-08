@@ -26,7 +26,7 @@ const handleMsg = async (message, client = new Client()) => {
             case 'help': {
                 await client.sendText(from, helpMessage)
             }
-            case 'openai': {
+            case 'ai': {
                 let input = body
                 let inputArray = input.split(" ")
                 let text = ""
@@ -39,7 +39,7 @@ const handleMsg = async (message, client = new Client()) => {
 
                     try {
                         const configuration = new Configuration({
-                            apiKey: "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",
+                            apiKey: "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",
                         });
                         const openai = new OpenAIApi(configuration);
                         const response = await openai.createCompletion({
@@ -47,8 +47,6 @@ const handleMsg = async (message, client = new Client()) => {
                             prompt: question,
                             max_tokens: 255,
                         });
-
-                        console.log(response.data.choices[0].text)
 
                         client.sendText(from, response.data.choices[0].text)
                     } catch (error) {
