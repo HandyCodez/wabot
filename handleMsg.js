@@ -39,7 +39,7 @@ const handleMsg = async (message, client = new Client()) => {
 
                     try {
                         const configuration = new Configuration({
-                            apiKey: "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",
+                            apiKey: "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",
                         });
                         const openai = new OpenAIApi(configuration);
                         const response = await openai.createCompletion({
