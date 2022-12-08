@@ -18,7 +18,7 @@ function start(client) {
     });
 }
 
-app.get('/', (req, res) => {
+app.get('/unknown', (req, res) => {
     res.send('Hello World!')
   })
   
