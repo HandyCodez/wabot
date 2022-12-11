@@ -1,2 +1,3 @@
-2022/12/11-16:15:27.338 90c Creating DB E:\project\nodejs\openAI\_IGNORE_session\Default\Session Storage since it was missing.
-2022/12/11-16:15:28.230 90c Reusing MANIFEST E:\project\nodejs\openAI\_IGNORE_session\Default\Session Storage/MANIFEST-000001
+2022/12/11-16:54:05.040 19e0 Reusing MANIFEST E:\project\nodejs\openAI\_IGNORE_session\Default\Session Storage/MANIFEST-000001
+2022/12/11-16:54:05.041 19e0 Recovering log #3
+2022/12/11-16:54:05.041 19e0 Reusing old log E:\project\nodejs\openAI\_IGNORE_session\Default\Session Storage/000003.log 

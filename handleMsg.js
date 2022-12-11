@@ -13,11 +13,7 @@ const handleMsg = async (message, client = new Client()) => {
         .split(/\s/)
         .shift()
         .toLowerCase();
-    const helpMessage = `
-                            ---COMMAND LIST---
-                            !ai - question and answer (openAI)
-                            !meme - untuk melihat meme
-                        `;
+    const helpMessage = ' ---COMMAND LIST---\n!ai - question and answer (openAI)\n!meme - untuk melihat meme';
 
     if (isCmd) {
         let input = body;
