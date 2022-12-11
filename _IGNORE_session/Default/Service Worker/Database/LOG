@@ -1,3 +1,2 @@
-2022/12/09-03:08:22.168 1890 Reusing MANIFEST E:\project\nodejs\openAI\_IGNORE_session\Default\Service Worker\Database/MANIFEST-000001
-2022/12/09-03:08:22.169 1890 Recovering log #3
-2022/12/09-03:08:22.169 1890 Reusing old log E:\project\nodejs\openAI\_IGNORE_session\Default\Service Worker\Database/000003.log 
+2022/12/11-16:15:36.899 b3c Creating DB E:\project\nodejs\openAI\_IGNORE_session\Default\Service Worker\Database since it was missing.
+2022/12/11-16:15:37.370 b3c Reusing MANIFEST E:\project\nodejs\openAI\_IGNORE_session\Default\Service Worker\Database/MANIFEST-000001

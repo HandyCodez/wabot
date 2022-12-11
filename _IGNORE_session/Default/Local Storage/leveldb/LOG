@@ -1,3 +1,2 @@
-2022/12/09-03:08:22.187 12bc Reusing MANIFEST E:\project\nodejs\openAI\_IGNORE_session\Default\Local Storage\leveldb/MANIFEST-000001
-2022/12/09-03:08:22.188 12bc Recovering log #3
-2022/12/09-03:08:22.189 12bc Reusing old log E:\project\nodejs\openAI\_IGNORE_session\Default\Local Storage\leveldb/000003.log 
+2022/12/11-16:15:22.312 90c Creating DB E:\project\nodejs\openAI\_IGNORE_session\Default\Local Storage\leveldb since it was missing.
+2022/12/11-16:15:23.729 90c Reusing MANIFEST E:\project\nodejs\openAI\_IGNORE_session\Default\Local Storage\leveldb/MANIFEST-000001
