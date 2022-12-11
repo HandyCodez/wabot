@@ -46,8 +46,6 @@ const handleMsg = async (message, client = new Client()) => {
                             prompt: question,
                             max_tokens: 255,
                         });
-
-                        console.log(response)
                         text = response.data.choices[0].text
 
                     } catch (error) {
