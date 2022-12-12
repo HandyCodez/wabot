@@ -1,6 +1,5 @@
 const { create, Client } = require("@open-wa/wa-automate");
 const { Configuration, OpenAIApi } = require("openai");
-const axios = require("axios");
 
 const handleMsg = async (message, client = new Client()) => {
     const body = message.body;
